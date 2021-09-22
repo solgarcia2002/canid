@@ -1,0 +1,10 @@
+{"vaccinationRange":[
+    {"id": 0, "label": "VACCINE"},
+    {"id": 1, "label": "BIRTH"},
+    {"id": 2, "label": "1 MONTH"},
+    {"id": 3, "label": "2 MONTHS"},
+    {"id": 4, "label": "4 MONTHS"},
+    {"id": 5, "label": "6 MONTH"},
+    {"id": 6, "label": "12 MONTHS"},
+    {"id": 7, "label": "15 MONTHS"}
+]}

@@ -1,0 +1,33 @@
+{
+  "vaccines": [
+    {
+      "label": "Hep B",
+      "content": [
+        "1st dose",
+        null,
+        "2nd dose",
+        null
+      ]
+    },
+    {
+      "label": "Rotavirus*",
+      "content": [
+        "1st dose",
+        null,
+        "2nd dose",
+        null
+      ]
+    },
+    {
+      "label": "DTaP",
+      "content": [
+        null,
+        null,
+        "1st dose",
+        null,
+        "2nd dose",
+        null
+      ]
+    }
+  ]
+}
