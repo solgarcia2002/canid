@@ -1,10 +1,70 @@
-{"vaccinationRange":[
-    {"id": 0, "label": "VACCINE"},
-    {"id": 1, "label": "BIRTH"},
-    {"id": 2, "label": "1 MONTH"},
-    {"id": 3, "label": "2 MONTHS"},
-    {"id": 4, "label": "4 MONTHS"},
-    {"id": 5, "label": "6 MONTH"},
-    {"id": 6, "label": "12 MONTHS"},
-    {"id": 7, "label": "15 MONTHS"}
-]}
+{
+    "vaccinationRange": [
+        {
+            "id": 0,
+            "label": "VACCINE"
+        },
+        {
+            "id": 1,
+            "label": "BIRTH",
+            "range": [
+                0,
+                1
+            ],
+            "rangeType": "month"
+        },
+        {
+            "id": 2,
+            "label": "1 MONTH",
+            "range": [
+                1,
+2            ],
+            "rangeType": "month"
+        },
+        {
+            "id": 3,
+            "label": "2 MONTHS",
+            "range": [
+                2,
+               4
+            ],
+            "rangeType": "month"
+        },
+        {
+            "id": 4,
+            "label": "4 MONTHS",
+            "range": [
+                4,
+                6
+            ],
+            "rangeType": "month"
+        },
+        {
+            "id": 5,
+            "label": "6 MONTH",
+            "range": [
+                6,
+                12
+            ],
+            "rangeType": "month"
+        },
+        {
+            "id": 6,
+            "label": "12 MONTHS",
+            "range": [
+                12,
+                15
+            ],
+            "rangeType": "month"
+        },
+        {
+            "id": 7,
+            "label": "15 MONTHS",
+            "range": [
+                15,
+                18
+            ],
+            "rangeType": "month"
+        }
+    ]
+}

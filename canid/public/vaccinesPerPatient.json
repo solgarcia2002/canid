@@ -1,0 +1,9 @@
+{
+  "patientId": 1,
+  "patient": "John Doe",
+  "dayOfBirth":" 08/31/2000",
+  "vaccines":[
+    {"vaccineId":3, "doses":["03/24/2001" , "12/12/2001"]},
+    {"vaccineId":5, "doses":["09/24/2000" , "12/12/2000"]}
+  ]
+}
