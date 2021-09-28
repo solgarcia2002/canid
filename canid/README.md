@@ -1,3 +1,4 @@
+![alt text](https://github.com/solgarcia2002/canid/blob/master/canid/public/screenshot.png?raw=true)
 
 
 # Getting Started with Create React App
