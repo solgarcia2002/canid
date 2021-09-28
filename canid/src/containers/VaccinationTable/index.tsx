@@ -19,17 +19,7 @@ const [patientDoB, setPatientDoB] = useState('');
         fetchData();
 
     }, []);
-    useEffect(() => {
-        const fetchData = async () => {
-            const response = await fetch(
-                'vaccinationRange.json'
-            );
-            const data = await response.json();
-            setVaccinationRange(data.vaccinationRange);
-        };
-        fetchData();
 
-    }, []);
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch(
@@ -37,6 +27,7 @@ const [patientDoB, setPatientDoB] = useState('');
             );
             const data = await response.json();
             setVaccines(data.vaccines);
+            setVaccinationRange(data.vaccinationRange);
         };
         fetchData();
 

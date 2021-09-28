@@ -1,4 +1,91 @@
 {
+
+  "vaccinationRange": [
+    {
+      "id": 0,
+      "label": "VACCINE"
+    },
+    {
+      "id": 1,
+      "label": "BIRTH",
+      "range": [
+        0,
+        1
+      ],
+      "rangeType": "month"
+    },
+    {
+      "id": 2,
+      "label": "1 MONTH",
+      "range": [
+        1,
+        2            ],
+      "rangeType": "month"
+    },
+    {
+      "id": 3,
+      "label": "2 MONTHS",
+      "range": [
+        2,
+        4
+      ],
+      "rangeType": "month"
+    },
+    {
+      "id": 4,
+      "label": "4 MONTHS",
+      "range": [
+        4,
+        6
+      ],
+      "rangeType": "month"
+    },
+    {
+      "id": 5,
+      "label": "6 MONTH",
+      "range": [
+        6,
+        12
+      ],
+      "rangeType": "month"
+    },
+    {
+      "id": 6,
+      "label": "12 MONTHS",
+      "range": [
+        12,
+        15
+      ],
+      "rangeType": "month"
+    },
+    {
+      "id": 7,
+      "label": "15 MONTHS",
+      "range": [
+        15,
+        18
+      ],
+      "rangeType": "month"
+    },
+    {
+      "id": 8,
+      "label": "2 - 4 YEARS",
+      "range": [
+        2,
+        4
+      ],
+      "rangeType": "year"
+    },
+    {
+      "id": 9,
+      "label": "4 - 6 YEARS",
+      "range": [
+        4,
+        6
+      ],
+      "rangeType": "year"
+    }
+  ],
   "vaccines": [
     {
       "label": "Hep B",
@@ -225,10 +312,10 @@
           ]
         },
         {
-          "rangeUnit": "month",
+          "rangeUnit": "year",
           "range": [
-            6,
-            18
+            5,
+            6
           ]
         }
       ],
